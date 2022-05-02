@@ -60,7 +60,7 @@ jsonStr, "Customer", "Customer-rel");
 alert(putReqStr);
 jQuery.ajaxSetup({async: false});
 var resultObj = executeCommandAtGivenBaseUrl(putReqStr,
-"http://api.login2explore.com:5577", "/api/iml");
+"https://api.login2explore.com:5577", "/api/iml");
 alert(JSON.stringify(resultObj));
 jQuery.ajaxSetup({async: true});
 resetForm();
